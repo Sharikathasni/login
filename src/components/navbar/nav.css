@@ -1,0 +1,40 @@
+.nav{
+    width: 100vw;
+    height: 70px;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: white;
+    overflow: hidden;
+}
+.logo{
+    font-size: 30px;
+}
+.nav ul{
+    display: flex;
+    gap: 25px;
+}
+.nav ul li {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.icon-container{
+    display: flex;
+    gap:50px;
+}
+.icon{
+    cursor: pointer;   
+}
+
+.logo-img{
+   object-fit: cover;
+   height: 90px;
+
+}

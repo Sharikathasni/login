@@ -4,8 +4,10 @@
   display: flex;
 }
 .image {
-  background-color: antiquewhite;
   flex: 1;
+  background-image: url('/public/images/a.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .login {
   flex: 1;
@@ -25,9 +27,10 @@
   align-items: center;
 }
 .heading {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 500;
   margin-bottom: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
 .sub-head {
   margin-bottom: 50px;
@@ -46,12 +49,12 @@
 }
 
 .btn {
-  width: 170px;
-  height: 35px;
-  background-color: teal;
+  width: 190px;
+  height: 45px;
+  background-color:black;
   font-size: 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
 }

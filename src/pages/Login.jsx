@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "../App.css";
 import { useNavigate } from "react-router-dom";
 
+
 const Login = () => {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, seterror] = useState("");
@@ -19,13 +21,20 @@ const Login = () => {
   };
   return (
     <div className="container">
-      <div className="image">Image</div>
+      <div className="image"></div>
       <form className="login" onSubmit={handleSubmit}>
         <div className="login-cont">
-          <div className="heading">Login Page</div>
+          <div className="heading">Create an account</div>
           <div className="sub-head">
-            Lorem ipsum dolor sit, amet consectetur
+            Lets Gets Started 
           </div>
+          <input
+            type="name"
+            className="inp"
+            placeholder="enter your name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
           <input
             type="email"
             className="inp"
@@ -41,7 +50,7 @@ const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
           <button className="btn" type="submit">
-            submit
+            Create Account
           </button>
           {error && <div className="error">{error}</div>}
         </div>
