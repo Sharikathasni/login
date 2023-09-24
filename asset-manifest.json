@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/login/static/css/main.42c413bf.css",
+    "main.js": "/login/static/js/main.179aeac8.js",
+    "static/media/a.png": "/login/static/media/a.1b5375ae07f354d7eb12.png",
+    "static/media/b.png": "/login/static/media/b.ab2373fbda67f37e92dd.png",
+    "static/media/kid.png": "/login/static/media/kid.5ec47f3e7d9405d79daf.png",
+    "static/media/w.png": "/login/static/media/w.30ccd7c3918aec17697f.png",
+    "static/media/men.png": "/login/static/media/men.187645a8ad56cf257329.png",
+    "static/media/a4.jpg": "/login/static/media/a4.297c082c7a481b6c9e10.jpg",
+    "static/media/a3.jpg": "/login/static/media/a3.f127963455ed247e1ef1.jpg",
+    "static/media/a5.jpg": "/login/static/media/a5.59831804754670dd2f2b.jpg",
+    "static/media/b3.jpg": "/login/static/media/b3.9b34562eab0a46e57dc8.jpg",
+    "static/media/m1.jpg": "/login/static/media/m1.b9d80dab59b8b5010458.jpg",
+    "static/media/a2.jpg": "/login/static/media/a2.f5862125875b6fb37f2f.jpg",
+    "static/media/m3.jpg": "/login/static/media/m3.203cad8ebb26f66526e2.jpg",
+    "static/media/w2.jpg": "/login/static/media/w2.ca0f5839e4de488b9b86.jpg",
+    "static/media/k3.jpg": "/login/static/media/k3.f340f877fbc4647671b6.jpg",
+    "static/media/m2.jpg": "/login/static/media/m2.688d7ea50f66dc76d819.jpg",
+    "static/media/b1.jpg": "/login/static/media/b1.f19263fd80d39cbf0e94.jpg",
+    "static/media/k2.jpg": "/login/static/media/k2.44fa1bde17a1bc9d98c5.jpg",
+    "static/media/w1.jpg": "/login/static/media/w1.95aacb4771bc04539110.jpg",
+    "static/media/a1.jpg": "/login/static/media/a1.6e459d0336c178e1d397.jpg",
+    "static/media/b2.jpg": "/login/static/media/b2.03887b4c014765ecb4a3.jpg",
+    "static/media/k1.jpg": "/login/static/media/k1.b1512fb792fe716a7458.jpg",
+    "index.html": "/login/index.html",
+    "main.42c413bf.css.map": "/login/static/css/main.42c413bf.css.map",
+    "main.179aeac8.js.map": "/login/static/js/main.179aeac8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42c413bf.css",
+    "static/js/main.179aeac8.js"
+  ]
+}
