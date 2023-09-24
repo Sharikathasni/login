@@ -12,7 +12,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (email === "admin@gmail.com" && password === "admin") {
+    if (email === "" && password === "") {
       seterror("");
       navigate("/home");
     } else {
